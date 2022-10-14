@@ -1,4 +1,6 @@
-﻿html,
+﻿@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html,
 body,
 div,
 span,
@@ -84,6 +86,8 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    animation-name: blur-trans;
+    animation-duration: 2s;
 }
 
 article,
@@ -219,13 +223,14 @@ nav.horizontal ul li {
 
 img {
     max-width: 100%;
+
 }
 
 
 /*--- end reset code ---*/
 
 body {
-    font-family: 'Sirin Stencil', cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 input::-webkit-input-placeholder {
@@ -257,13 +262,26 @@ input:-ms-input-placeholder {
     background-size: cover;
     background-position: center center;
     z-index: 1;
+
 }
 
 .demo-1 .large-header {
     background-image: url('../images/AnhNenDangNhap.jpg');
     background-position: center bottom;
+
 }
 
+@keyframes blur-trans {
+    0% {
+        filter: blur(20px);
+        -webkit-filter: blur(20px);
+    }
+
+    100% {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+}
 
 /* Header */
 
@@ -298,7 +316,7 @@ h1 {
     color: #ffffff;
     letter-spacing: 4px;
     word-spacing: 4px;
-    font-family: 'Sirin Stencil', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .icon-w3 i {
@@ -316,6 +334,8 @@ h1 {
 form {
     margin: 0 auto;
     width: 100%;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
 }
 
 .form-sub-w3 {
@@ -508,12 +528,15 @@ i.fa.fa-pinterest-p {
     .icon-w3 {
         right: 27px;
     }
+
     h1 {
         margin: 80px 0 40px;
     }
+
     .copyright p {
         margin: 50px 0px 150px;
     }
+
     .p-bottom-w3ls1 {
         padding-right: 15px;
     }
@@ -523,6 +546,7 @@ i.fa.fa-pinterest-p {
     .p-bottom-w3ls1 {
         padding-right: 10px;
     }
+
     .icon-w3 {
         right: 20px;
     }
@@ -532,12 +556,15 @@ i.fa.fa-pinterest-p {
     .p-bottom-w3ls1 {
         padding-right: 5px;
     }
+
     h1 {
         margin: 40px 0;
     }
+
     .copyright p {
         margin: 50px 0px;
     }
+
     .icon-w3 {
         right: 15px;
     }
@@ -565,6 +592,7 @@ i.fa.fa-pinterest-p {
     .main-agileits {
         width: 45%;
     }
+
     .form-sub-w3 input[type="text"],
     .form-sub-w3 input[type="password"] {
         width: 85.5%;
@@ -593,6 +621,7 @@ i.fa.fa-pinterest-p {
     .main-agileits {
         width: 60%;
     }
+
     h1 {
         margin: 35px 0;
         font-size: 40px;
@@ -621,6 +650,7 @@ i.fa.fa-pinterest-p {
     .main-agileits {
         width: 80%;
     }
+
     h1 {
         margin: 30px 0;
         font-size: 35px;
@@ -637,25 +667,31 @@ i.fa.fa-pinterest-p {
     .main-agileits {
         width: 95%;
     }
+
     .form-w3-agile {
         padding: 30px 30px;
     }
+
     .p-bottom-w3ls {
         float: none;
     }
+
     .p-bottom-w3ls1 {
         padding-right: 0px;
         margin-top: 10px;
         float: none;
     }
+
     h1 {
         margin: 30px 0;
         font-size: 33px;
     }
+
     .copyright p {
         margin: 40px 0px;
         line-height: 28px;
     }
+
     .form-sub-w3 input[type="text"],
     .form-sub-w3 input[type="password"] {
         width: 85%;
@@ -666,10 +702,12 @@ i.fa.fa-pinterest-p {
     .copyright p {
         margin: 40px 10px 40px;
     }
+
     h1 {
         margin: 20px 0;
         font-size: 30px;
     }
+
     i.fa.fa-facebook,
     i.fa.fa-twitter,
     i.fa.fa-linkedin,
@@ -678,6 +716,7 @@ i.fa.fa-pinterest-p {
         width: 20px;
         font-size: 16px;
     }
+
     .form-sub-w3 input[type="text"],
     .form-sub-w3 input[type="password"] {
         width: 82%;
@@ -694,18 +733,23 @@ i.fa.fa-pinterest-p {
         word-spacing: 4px;
         letter-spacing: 2px;
     }
+
     .icons {
         margin-left: 6em;
     }
+
     .form-w3-agile {
         padding: 30px 20px;
     }
+
     .copyright p {
         margin: 20px 10px 20px;
     }
+
     .icon-w3 {
         right: 5px;
     }
+
     .form-sub-w3 {
         margin-bottom: 5px;
     }
@@ -716,7 +760,7 @@ i.fa.fa-pinterest-p {
 }
 
 .large-header h1 {
-    color: rgba(29, 82, 195, 0.83)
+    color: black
 }
 
 .form-w3-agile {

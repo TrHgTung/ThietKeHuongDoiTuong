@@ -740,36 +740,46 @@ header .cart .quntity {
     header .cart .quntity {
         font-size: 10px;
     }
+
     .container {
         width: 100%;
         padding: 0 20px;
         max-width: 100%;
     }
+
     .recent-book-sec .row {
         margin: 0 -20px;
     }
+
     .recent-book-sec .row .col-lg-2 {
         padding: 0 20px;
     }
+
     .recent-book-sec .row {
         margin: 0 -20px;
     }
+
     .recent-book-sec .row .col-md-2 {
         padding: 0 20px;
     }
+
     .offers-sec .row {
         margin: 0 -20px;
     }
+
     .offers-sec .row .col-md-6 {
         padding: 0 20px;
     }
+
     .about-sec .about-content {
         max-width: 580px;
         padding-left: 40px;
     }
+
     .offers-sec .detail h3 {
         font-size: 22px;
     }
+
     .testimonial-sec .item h3 {
         font-size: 30px;
         line-height: 46px;
@@ -780,66 +790,85 @@ header .cart .quntity {
     header .header-top h5 {
         font-size: 12px;
     }
+
     header .header-top .ph-number {
         font-size: 12px;
     }
+
     header .main-menu {
         padding: 20px 0;
     }
+
     header .main-menu .navbar-light .navbar-nav .navbar-item {
         padding: 4px;
         margin-bottom: 10px;
     }
+
     header .main-menu .navbar-light .navbar-nav .navbar-item:after {
         display: none;
     }
+
     header .cart {
         max-width: 34px;
     }
+
     header .main-menu .form-inline {
         max-width: 200px;
     }
+
     .recomended-sec h2 {
         font-size: 26px;
     }
+
     .recomended-sec hr {
         margin-top: -15px;
     }
+
     .recomended-sec .item {
         margin-bottom: 30px;
     }
+
     .recomended-sec {
         margin-bottom: 50px;
     }
+
     .recent-book-sec .row .col-lg-2 {
         -ms-flex: 25%;
         flex: 25%;
         max-width: 25%;
     }
+
     .about-sec .about-content {
         max-width: 440px;
         padding: 40px 0 40px 25px;
     }
+
     .offers-sec .detail {
         padding: 45px 34px;
     }
+
     .offers-sec .detail h6 {
         padding-right: 0;
     }
+
     .testimonial-sec {
         padding: 80px 0 60px;
     }
+
     .testimonial-sec .item {
         padding: 0 50px 80px;
     }
+
     .testimonial-sec .item h3 {
         font-size: 26px;
         line-height: 42px;
     }
+
     header .main-menu .form-inline input {
         width: 140px;
         height: 27px;
     }
+
     .offers-sec .detail .icon-point {
         display: none;
     }
@@ -849,58 +878,75 @@ header .cart .quntity {
     header .header-top .ph-number {
         float: initial;
     }
+
     header .navbar-nav {
         padding-top: 10px;
     }
+
     .slider .slide .content .title {
         padding: 0 10px;
     }
+
     .slider .slide .content .title h3 {
         font-size: 24px;
     }
+
     .slider .slide .content .title h5 {
         font-size: 14px;
         margin-bottom: 24px;
     }
+
     .btn {
         padding: 10px 15px 9px;
     }
+
     .slider .owl-dots {
         bottom: 10px;
     }
+
     .about-sec {
         padding-bottom: 60px;
     }
+
     .about-sec .about-content {
         max-width: 100%;
         padding: 0 20px;
     }
+
     .about-sec .about-img {
         width: 100%;
         margin-bottom: 30px;
     }
+
     .about-sec .about-content h2 {
         font-size: 24px;
         margin-bottom: 15px;
     }
+
     .about-sec .about-content p {
         margin-bottom: 20px;
     }
+
     .about-sec .about-content .btn-sec {
         margin-top: 34px;
     }
+
     .recent-book-sec .row {
         margin: 0 -15px;
     }
+
     .features-sec ul li {
         padding: 0 10px 40px;
     }
+
     .features-sec ul li h3 {
         font-size: 20px;
     }
+
     .offers-sec .detail {
         margin-bottom: 20px;
     }
+
     .recent-book-sec .row .col-lg-2 {
         -ms-flex: 50%;
         flex: 50%;
@@ -912,62 +958,81 @@ header .cart .quntity {
     .container {
         padding: 0 15px;
     }
+
     .offers-sec .row {
         margin: 0 -15px;
     }
+
     .offers-sec .row .col-md-6 {
         padding: 0 15px;
     }
+
     .slider .slide .content .title h3 {
         font-size: 15px;
     }
+
     .slider .slide .content .title h5 {
         font-size: 10px;
     }
+
     .recomended-sec .title {
         margin-bottom: 40px;
     }
+
     .recomended-sec h2 {
         font-size: 22px;
     }
+
     .recent-book-sec h2 {
         font-size: 22px;
     }
+
     .features-sec ul li {
         width: 100%;
         margin-bottom: 60px;
     }
+
     .features-sec ul li:last-child {
         margin-bottom: 0;
     }
+
     .features-sec ul li {
         border: 1px solid #cacaca;
     }
+
     .offers-sec .detail {
         padding: 40px 24px;
     }
+
     .offers-sec {
         padding: 80px 0 60px;
     }
+
     .testimonial-sec {
         padding: 60px 0 40px;
     }
+
     .testimonial-sec .item h3 {
         font-size: 20px;
         line-height: 32px;
     }
+
     .testimonial-sec .item {
         padding: 0 20px 80px;
     }
+
     .testimonial-sec .left-quote {
         left: 0px;
     }
+
     .testimonial-sec .right-quote {
         right: 0px;
     }
+
     .recent-book-sec .row .col-lg-2 {
         padding: 0 15px;
     }
+
     .recent-book-sec .row {
         margin: 0 -15px;
     }
@@ -1163,6 +1228,7 @@ header .cart .quntity {
     .static h2 {
         font-size: 18px;
     }
+
     .static .recent-book-sec .col-md-3 {
         padding: 0 20px;
         -ms-flex: 0 0 25%;
@@ -1182,36 +1248,45 @@ header .cart .quntity {
         font-size: 26px;
         margin-bottom: 22px;
     }
+
     .about-sec img {
         margin: 0 0px 30px 0;
     }
+
     .static .form {
         margin-bottom: 0px;
     }
+
     .static .form h5 {
         padding-left: 0;
         font-size: 14px;
     }
+
     .recent-book-sec .row {
         margin: 0 -20px;
     }
+
     .static .recent-book-sec .row {
         margin: 0 -15px;
     }
+
     .static .recent-book-sec .col-md-3 {
         padding: 0 15px;
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
     }
+
     .static.about-sec {
         padding-bottom: 00px;
         margin-bottom: 0;
     }
+
     .static .recomended-sec {
         margin-bottom: 20px;
         margin-top: 100px;
     }
+
     .khungSPDon h1 {
         font-size: 20px;
     }
@@ -1355,9 +1430,11 @@ header .cart .quntity {
         flex: 0 0 450px;
         max-width: 450px;
     }
+
     .product-sec h1 {
         font-size: 28px;
     }
+
     .related-books h2 {
         font-size: 28px;
     }
@@ -1375,6 +1452,7 @@ header .cart .quntity {
     .product-sec .slider-sec {
         margin-bottom: 30px;
     }
+
     .slider-content {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
@@ -1388,16 +1466,19 @@ header .cart .quntity {
         flex: 0 0 100%;
         max-width: 100%;
     }
+
     .product-sec .carousel-inner {
         max-width: 100%;
         margin-bottom: 20px;
     }
+
     .product-sec #myCarousel .carousel-indicators {
         position: initial;
         float: left;
         width: 100%;
         margin: 0 -5px;
     }
+
     .product-sec #myCarousel .carousel-indicators>li {
         width: 33.33%;
         margin-left: 0;
@@ -1406,9 +1487,11 @@ header .cart .quntity {
         margin: 0;
         padding: 0 5px;
     }
+
     .product-sec h1 {
         font-size: 13px;
     }
+
     .related-books h2 {
         font-size: 24px;
     }
@@ -1534,12 +1617,15 @@ footer .copy-right .share span:hover {
     footer .timing {
         margin-bottom: 40px;
     }
+
     footer {
         padding: 60px 0 0;
     }
+
     footer .copy-right .share {
         text-align: left;
     }
+
     footer .copy-right .share {
         text-align: left;
         margin-top: 10px;
