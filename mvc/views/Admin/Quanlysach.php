@@ -72,8 +72,8 @@
                                 echo '</td>';
                                 echo' <td data-th="Subtotal" style="color: red;">'.$row[$i]->idtheloai.'</td>';
                                 echo '<td class="actions" data-th>
-                                <a href="http://localhost:8080/project/Admin/Xoasanpham/'.$row[$i]->idsanpham.'" class="btn btn-success btn-block">Xóa <i class="fa fa-trash-o"></i></a>
-                                <a href="http://localhost:8080/project/Admin/Capnhatsanpham/'.$row[$i]->idsanpham.'" class="btn btn-success btn-block">Cập nhật <i class="fa fa-pencil-square-o"></i></a>
+                                <a href="http://localhost:8080/banquanaohuongdoituong/Admin/Xoasanpham/'.$row[$i]->idsanpham.'" class="btn btn-success btn-block">Xóa <i class="fa fa-trash-o"></i></a>
+                                <a href="http://localhost:8080/banquanaohuongdoituong/Admin/Capnhatsanpham/'.$row[$i]->idsanpham.'" class="btn btn-success btn-block">Cập nhật <i class="fa fa-pencil-square-o"></i></a>
                         
                                  </td>
                                   </tr>';

@@ -8,8 +8,8 @@ class Admin extends Controller{
         $this->view("Admin",
         [
             "Admin"=>"Quanlysach",
-            "Product"=>$this->AdminModel->getProduct(),
-            "Theloai"=>$this->AdminModel->getTheloai()
+            "Product"=>AdminModel->getProduct(),
+            "Theloai"=>AdminModel->getTheloai()
         ]);
     }
     function Quanlysach(){

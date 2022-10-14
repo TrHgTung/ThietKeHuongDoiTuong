@@ -59,28 +59,28 @@ if(!isset($_SESSION['id'])||$_SESSION["role"]==1){
                 <div class="col-md-3">
                     <div class="breadcrumb">
                         <div class="container">
-                            <a class="breadcrumb-item" href="http://localhost:8080/project/Admin">Nhóm 4Men</a>
+                            <a class="breadcrumb-item" href="http://localhost:8080/banquanaohuongdoituong/Admin">Nhóm 4Men</a>
                             <span class="breadcrumb-item active">Quản lý</span>
 
                         </div>
                     </div>
                     <nav class="mainNav">
                         <ul>
-                            <li class="selected"><a href="http://localhost:8080/project/Admin">Quản lý sản phẩm</a>
+                            <li class="selected"><a href="http://localhost:8080/banquanaohuongdoituong/Admin">Quản lý sản phẩm</a>
                                 <ul>
-                                    <li><a href="http://localhost:8080/project/Admin/Quanlysach">Quản lý quần áo</a>
+                                    <li><a href="http://localhost:8080/banquanaohuongdoituong/Admin/Quanlysach">Quản lý quần áo</a>
                                     </li>
-                                    <li><a href="http://localhost:8080/project/Admin/Quanlynguoidung">Quản lý người dùng</a>
+                                    <li><a href="http://localhost:8080/banquanaohuongdoituong/Admin/Quanlynguoidung">Quản lý người dùng</a>
                                     </li>
-                                    <li><a href="http://localhost:8080/project/Admin/Quanlydathang">Quản lý đặt hàng</a>
+                                    <li><a href="http://localhost:8080/banquanaohuongdoituong/Admin/Quanlydathang">Quản lý đặt hàng</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="http://localhost:8080/project/Admin/Doanhthu">Thống kê</a>
+                            <li><a href="http://localhost:8080/banquanaohuongdoituong/Admin/Doanhthu">Thống kê</a>
                                 <ul>
-                                    <li><a href="http://localhost:8080/project/Admin/Doanhthu">Doanh thu</a>
+                                    <li><a href="http://localhost:8080/banquanaohuongdoituong/Admin/Doanhthu">Doanh thu</a>
                                     </li>
-                                    <li><a href="http://localhost:8080/project/Admin/Banchay">Bán chạy</a>
+                                    <li><a href="http://localhost:8080/banquanaohuongdoituong/Admin/Banchay">Bán chạy</a>
                                     </li>
                                 </ul>
                                 </li>

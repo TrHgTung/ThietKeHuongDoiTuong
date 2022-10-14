@@ -54,7 +54,7 @@
                                    </td>
                                    <td data-th="Subtotal" style="color: red;">'.$thanhtien.' VNĐ</td>
                                    <td class="actions" data-th>
-                                   <a href="http://localhost:8080/project/Logined/Xoasanpham/'.$row[$i]->idsanpham.'" class="btn btn-success btn-block">Xóa <i class="fa fa-trash-o"></i></a>      
+                                   <a href="http://localhost:8080/banquanaohuongdoituong/Logined/Xoasanpham/'.$row[$i]->idsanpham.'" class="btn btn-success btn-block">Xóa <i class="fa fa-trash-o"></i></a>      
                                    </td>
    
                                </tr>   ';
