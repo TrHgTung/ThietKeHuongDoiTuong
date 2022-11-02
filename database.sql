@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `bansach2`
+-- Cơ sở dữ liệu: `banquanaohuongdoituong`
 --
 
 -- --------------------------------------------------------
@@ -128,13 +128,13 @@ CREATE TABLE `sanpham` (
 --
 
 INSERT INTO `sanpham` (`idsanpham`, `tensanpham`, `anh`, `gia`, `idtheloai`, `lanmua`) VALUES
-(2, 'Tổng Bí Thư Trường Trinh sự nghiệp và cuộc đời cách mạng', 'public/images/anh1_2.jpg', 50000, 4, 78),
-(3, 'Những trận đánh lịch sử của Quân đội nhân dân Việt Nam', 'public/images/anh1.jpg', 50000, 3, 7),
-(4, 'Phạm Văn Đồng và những chặng đường lịch sử', 'public/images/anh1.jpg', 60000, 3, 151),
-(26, 'Luyện viết tiếng anh', 'public/images/AnhSanPham1105010122052.jpg', 40000, 5, 435),
-(27, 'Trí tuệ của doanh nhân', 'public/images/AnhSanPham1115010237281.jpg', 40000, 5, 285),
-(28, 'Quần Kaki A Nam ống dài', 'public/images/anhVoNguyenGiap.jpg', 50000, 3, 112),
-(29, 'lịch sử', 'public/images/anh1_3.jpg', 230000, 5, 461);
+(2, 'Quần Tây Ống Loe Dài Nam Jersey Mới', 'public/images/quantayongloedai.jpg', 50000, 4, 78),
+(3, 'Quần Tây Kiểu Pháp', 'public/images/anh1.jpg', 50000, 3, 7),
+(4, 'Áo Sơ Mi Tay Dài', 'public/images/aosomitaydai.jpg', 60000, 3, 151),
+(26, 'Áo Dài Truyền Thống', 'public/images/aodaitruyenthong.jpg', 40000, 5, 435),
+(27, 'Áo Dài Mùa Xuân', 'public/images/aodaimuaxuan.jpg', 40000, 5, 285),
+(28, 'Giày Thể Thao Chuyên Nghiệp Nam - Mới', 'public/images/giaythethaonam.JPG', 50000, 3, 112),
+(29, 'Quần tây dài cá tính', 'public/images/anh1.JPG', 230000, 5, 461);
 
 -- --------------------------------------------------------
 
@@ -152,11 +152,11 @@ CREATE TABLE `theloai` (
 --
 
 INSERT INTO `theloai` (`idtheloai`, `tentheloai`) VALUES
-(1, 'Hành động'),
-(2, 'Trinh thám'),
-(3, 'Lịch sử'),
-(4, 'Giải trí'),
-(5, 'Khoa học');
+(1, 'Quần các loại'),
+(2, 'Áo các loại'),
+(3, 'Mũ nón các loại'),
+(4, 'Giày dép các loại'),
+(5, 'Phụ kiện khác');
 
 --
 -- Chỉ mục cho các bảng đã đổ
