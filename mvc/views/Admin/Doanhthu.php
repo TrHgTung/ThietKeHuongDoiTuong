@@ -22,7 +22,7 @@
                                 <input type="text" placeholder="Ngày đặt" style="width:100px;" name="Cost">
                                 </th>
                                 <th>
-                                <a href="http://localhost/banquanaohuongdoituong/Admin/Bieudodoanhthu" class="btn btn-success btn-block">Biểu đồ</a>
+                                <a href="http://localhost:8080/banquanaohuongdoituong/Admin/Bieudodoanhthu" class="btn btn-success btn-block">Biểu đồ</a>
                                 </th>
                                 <th>
                                    
@@ -77,7 +77,7 @@
                                 echo   '  <div>'.$total.'</div>';
                                 echo '</td>
                                 <td>
-                                <a href="http://localhost/banquanaohuongdoituong/Admin/Chitietgiohang/'.$row[$i]->iddathang.'" class="btn btn-success btn-block">Chi tiết giỏ hàng</a>
+                                <a href="http://localhost:8080/banquanaohuongdoituong/Admin/Chitietgiohang/'.$row[$i]->iddathang.'" class="btn btn-success btn-block">Chi tiết giỏ hàng</a>
                                   </tr>';
                                 }
                                 echo '</td>

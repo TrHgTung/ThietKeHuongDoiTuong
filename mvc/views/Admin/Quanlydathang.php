@@ -74,7 +74,7 @@
                                 echo   '  <div>'.$total.'</div>';
                                 echo '</td>
                                 <td>
-                                <a href="http://localhost/banquanaohuongdoituong/Admin/Chitietgiohang/'.$row[$i]->iddathang.'" class="btn btn-success btn-block">Chi tiết giỏ hàng</a>
+                                <a href="http://localhost:8080/banquanaohuongdoituong/Admin/Chitietgiohang/'.$row[$i]->iddathang.'" class="btn btn-success btn-block">Chi tiết giỏ hàng</a>
                                   </tr>';
                                 }
                             ?>
